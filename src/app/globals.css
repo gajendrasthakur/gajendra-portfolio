@@ -10,10 +10,12 @@ body {
   overflow-x: hidden;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 section {
-  scroll-margin-top: 90px;
+  scroll-margin-top: 100px;
 }
