@@ -2,81 +2,34 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-slate-900 text-white py-28"
+      className="py-24 bg-slate-900 text-white"
     >
-      <div className="max-w-7xl mx-auto px-8 lg:px-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-16">
 
-        <p className="text-blue-500 font-semibold uppercase tracking-widest">
-          About Me
-        </p>
+        <div className="max-w-4xl">
 
-        <h2 className="text-4xl font-bold mt-4">
-          Passionate SAP Integration Consultant
-        </h2>
+          <p className="text-blue-400 font-semibold uppercase tracking-widest">
+            About Me
+          </p>
 
-        <div className="mt-10 grid lg:grid-cols-2 gap-16">
+          <h2 className="mt-4 text-4xl font-bold">
+            Building enterprise integrations that scale.
+          </h2>
 
-          <div>
+          <p className="mt-8 text-lg text-slate-300 leading-8">
+            I am an SAP Integration Consultant with 3+ years of
+            experience specializing in SAP CPI, SAP PI/PO and SAP
+            BTP Integration Suite. Currently working at IBM,
+            I design and develop enterprise-grade integrations
+            connecting SAP and non-SAP systems using APIs,
+            IDocs, RFCs, SOAP, REST and OData services.
+          </p>
 
-            <p className="text-slate-300 text-lg leading-9">
-              I am an SAP Integration Consultant with more than
-              3 years of experience designing and implementing
-              enterprise integrations using SAP CPI, SAP PI/PO
-              and SAP BTP Integration Suite.
-            </p>
-
-            <p className="mt-6 text-slate-300 text-lg leading-9">
-              Currently working at IBM, I specialize in API
-              integrations, IDOCs, SOAP, REST, OData services,
-              SuccessFactors integrations and cloud-native SAP
-              solutions for global clients.
-            </p>
-
-          </div>
-
-          <div className="grid grid-cols-2 gap-6">
-
-            <div className="bg-slate-800 rounded-2xl p-6">
-              <h3 className="text-3xl font-bold text-blue-500">
-                3+
-              </h3>
-
-              <p className="mt-2 text-slate-400">
-                Years Experience
-              </p>
-            </div>
-
-            <div className="bg-slate-800 rounded-2xl p-6">
-              <h3 className="text-3xl font-bold text-blue-500">
-                IBM
-              </h3>
-
-              <p className="mt-2 text-slate-400">
-                Current Employer
-              </p>
-            </div>
-
-            <div className="bg-slate-800 rounded-2xl p-6">
-              <h3 className="text-3xl font-bold text-blue-500">
-                SAP
-              </h3>
-
-              <p className="mt-2 text-slate-400">
-                Certified
-              </p>
-            </div>
-
-            <div className="bg-slate-800 rounded-2xl p-6">
-              <h3 className="text-3xl font-bold text-blue-500">
-                Azure
-              </h3>
-
-              <p className="mt-2 text-slate-400">
-                Certified
-              </p>
-            </div>
-
-          </div>
+          <p className="mt-6 text-lg text-slate-300 leading-8">
+            I enjoy solving complex integration challenges,
+            modernizing legacy interfaces and building reliable,
+            scalable middleware solutions for global clients.
+          </p>
 
         </div>
 

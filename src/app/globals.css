@@ -9,3 +9,11 @@ body {
   color: white;
   overflow-x: hidden;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
