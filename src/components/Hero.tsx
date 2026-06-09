@@ -23,9 +23,10 @@ export default function Hero() {
             </h1>
 
             <p className="mt-8 text-base sm:text-lg text-slate-300 leading-8 max-w-xl">
-              SAP CPI, PI/PO and SAP BTP Integration Suite Consultant with
-              3+ years of experience building enterprise integrations,
-              APIs and cloud-based solutions.
+              SAP Integration Consultant with 3+ years of experience
+              specializing in SAP CPI, SAP PI/PO and SAP BTP Integration
+              Suite, delivering enterprise integrations, APIs and
+              cloud-native solutions.
             </p>
 
             <div className="w-28 h-px bg-slate-700 my-10"></div>
@@ -69,18 +70,18 @@ export default function Hero() {
 
             <div className="relative w-full max-w-[380px]">
 
-              <div className="absolute inset-0 bg-blue-500/20 blur-3xl rounded-full"></div>
+              <div className="absolute inset-0 -z-10 pointer-events-none bg-blue-500/20 blur-3xl rounded-full"></div>
 
-              <div className="relative rounded-3xl border border-slate-700 bg-gradient-to-b from-slate-900 to-slate-800 shadow-2xl px-8 py-10">
+              <div className="relative z-10 rounded-3xl border border-slate-700 bg-gradient-to-b from-slate-900 to-slate-800 shadow-2xl px-8 py-10 transition duration-300 hover:-translate-y-1 hover:border-blue-500">
 
-                <div className="relative mx-auto w-52 h-52 rounded-full overflow-hidden border-2 border-blue-500">
+                <div className="relative mx-auto w-44 h-44 sm:w-52 sm:h-52 rounded-full overflow-hidden border-4 border-blue-500">
 
                   <Image
                     src="/profile.jpg"
                     alt="Gajendra Singh Thakur"
                     fill
                     priority
-                    sizes="208px"
+                    sizes="(max-width: 640px) 176px, 208px"
                     className="object-cover"
                   />
 
