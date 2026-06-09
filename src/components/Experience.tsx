@@ -14,27 +14,29 @@ export default function Experience() {
           Professional Journey
         </h2>
 
-        <div className="mt-12 rounded-2xl border border-slate-800 bg-slate-950 p-8">
+        <div className="mt-12 rounded-2xl border border-slate-800 bg-slate-950 p-8 transition hover:border-blue-500">
 
           <h3 className="text-2xl font-bold">
             SAP Integration Consultant
           </h3>
 
-          <p className="mt-2 text-blue-400">
+          <p className="mt-2 text-blue-400 font-medium">
             IBM
           </p>
 
-          <p className="mt-6 text-slate-300 leading-8">
-            • Developing SAP CPI integration flows
-            <br />
-            • Working on SAP PI/PO support and enhancements
-            <br />
-            • Building REST, SOAP and OData integrations
-            <br />
-            • Handling IDoc and RFC interfaces
-            <br />
-            • Supporting enterprise clients across global projects
+          <p className="mt-2 text-sm text-slate-400">
+            📅 July 2023 – Present
           </p>
+
+          <div className="w-20 h-px bg-slate-700 my-6"></div>
+
+          <ul className="space-y-3 text-slate-300 leading-7">
+            <li>• Developing SAP CPI integration flows</li>
+            <li>• Working on SAP PI/PO support and enhancements</li>
+            <li>• Building REST, SOAP and OData integrations</li>
+            <li>• Handling IDoc and RFC interfaces</li>
+            <li>• Supporting enterprise clients across global projects</li>
+          </ul>
 
         </div>
 
